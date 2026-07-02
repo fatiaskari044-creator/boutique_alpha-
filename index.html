@@ -2,103 +2,12 @@
 <html lang="fa">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بوتیک آلفا</title>
+
 <style>
- #cartBox{
-position:fixed;
-top:15px;
-right:15px;
-background:#3b2f2f;
-color:white;
-padding:10px 15px;
-border-radius:50px;
-cursor:pointer;
-font-size:18px;
-z-index:999;
-}
- body{
-margin:0;
-padding:0;
-font-family:tahoma;
-direction:rtl;
-background:#f7f3f0;
-}
 
-.products{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-align-items:flex-start;
-gap:20px;
-padding:20px;
-}
-
-.product{
-width:260px;
-background:white;
-padding:15px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-text-align:center;
-}
- .footer{
-background:#3b2f2f;
-color:white;
-padding:25px;
-margin-top:30px;
-text-align:center;
-border-radius:20px 20px 0 0;
-}
-
-.footer h2{
-margin-bottom:10px;
-}
-
-.footer a{
-color:#ffddc1;
-text-decoration:none;
-font-weight:bold;
-}
-
-.contact-box{
-margin:15px 0;
-line-height:1.8;
-}
-
-.copy{
-font-size:12px;
-opacity:0.7;
-margin-top:15px;
-}
- .footer{
-background:#3b2f2f;
-color:white;
-padding:25px;
-margin-top:30px;
-text-align:center;
-border-radius:20px 20px 0 0;
-}
-
-.footer h2{
-margin-bottom:10px;
-}
-
-.footer a{
-color:#ffddc1;
-text-decoration:none;
-font-weight:bold;
-}
-
-.contact-box{
-margin:15px 0;
-line-height:1.8;
-}
-
-.copy{
-font-size:12px;
-opacity:0.7;
-margin-top:15px;
-}
- body{
+body{
 margin:0;
 padding:0;
 font-family:tahoma;
@@ -107,68 +16,7 @@ background:#f7f3f0;
 text-align:center;
 }
 
-.products{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-align-items:flex-start;
-gap:20px;
-padding:20px;
-}
-
-.product{
-width:260px;
-background:white;
-padding:15px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-text-align:center;
-}
- <style>
-font-family:tahoma;
-direction:rtl;
-background:linear-gradient(to bottom, #f7f3f0, #e8ddd4);
-margin:0;
-padding:0;
-text-align:center;
-}
-header{
-background:#3b2f2f;
-color:white;
-padding:20px;
-font-size:24px;
-}
-.prodbody{
-margin:0;
-padding:0;
-font-family:tahoma;
-direction:rtl;
- body{
-margin:0;
-padding:0;
-font-family:tahoma;
-direction:rtl;
-background:#f7f3f0;
-}
-
-.products{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-align-items:flex-start;
-gap:20px;
-padding:20px;
-}
-
-.product{
-width:260px;
-background:white;
-padding:15px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-text-align:center;
-}
-
+/* لوگو پس‌زمینه */
 body::before{
 content:"";
 position:fixed;
@@ -179,41 +27,121 @@ height:100%;
 background-image:url("https://i.ibb.co/gZxQrVRx/IMG-20260703-001703-903.jpg");
 background-repeat:no-repeat;
 background-position:center;
-background-size:cover;
+background-size:caver;
 opacity:0.22;
 pointer-events:none;
 z-index:-1;
-}uct{
-background:white;
-margin:15px;
-padding:15px;
-border-radius:10px;
-box-shadow:0 0 10px #ddd;
 }
-button{hover{
-background:#4a3636;
-transform:scale(1.05);
-transition:0.3s;
-}
-background:#6b4f4f;
+
+/* هدر */
+header{
+background:#3b2f2f;
 color:white;
-padding:12px 25px;
-border:none;
-border-radius:25px;
-cursor:pointer;
-font-size:16px;
+padding:15px;
+font-size:20px;
 font-weight:bold;
 }
+
+/* محصولات */
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:20px;
+}
+
+.product{
+width:260px;
+background:white;
+padding:15px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* دکمه */
+button{
+background:#6b4f4f;
+color:white;
+padding:10px 15px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+margin-top:10px;
+}
+
+button:hover{
+background:#4a3636;
+}
+
+/* سبد خرید */
+.cart{
+position:fixed;
+top:15px;
+right:15px;
+background:#3b2f2f;
+color:white;
+padding:10px 15px;
+border-radius:50px;
+cursor:pointer;
+z-index:999;
+}
+
+/* فوتر */
+.footer{
+background:#3b2f2f;
+color:white;
+padding:20px;
+margin-top:30px;
+}
+
+.footer a{
+color:#ffddc1;
+text-decoration:none;
+font-weight:bold;
+}
+
 </style>
-<head>
-
-<meta charset="UTF-8">
-<meta name="google-site-verification" content="b-APJlaB۱YdX۸pYG" />
-
-<title>بوتیک آلفا</title>
-
 </head>
- <script>
+
+<body>
+
+<header>
+🛍 بوتیک آلفا
+</header>
+
+<!-- سبد خرید -->
+<div class="cart" onclick="showCart()">
+🛒 <span id="cartCount">0</span>
+</div>
+
+<!-- محصولات -->
+<div class="products">
+
+<div class="product">
+<h3>تیشرت فلفلی</h3>
+<img src="https://i.ibb.co/kst7qBTR/filename.jpg" width="300">
+<p>قیمت: 998000 تومان</p>
+<button onclick="addToCart('تیشرت فلفلی',998000)">➕ افزودن به سبد</button>
+</div>
+ <div class="product">
+<h3>شومیز شیشه‌ای</h3>
+<img src="https://i.ibb.co/chP3frX9/filename.jpg"" width="300">
+<p>قیمت: 1750000 تومان</p>
+<button onclick="addToCart('شومیز شیشه‌ای',1750000)">➕ افزودن به سبد</button>
+</div>
+
+</div>
+
+<!-- فوتر -->
+<div class="footer">
+<p>📞 09375294372</p>
+<p>📍 ماهشهر، ایران</p>
+<p>📸 <a href="https://instagram.com/boutique_alphaa_" target="_blank">@boutique_alphaa_</a></p>
+</div>
+
+<script>
+
 let cart = [];
 
 function addToCart(name, price){
@@ -241,101 +169,8 @@ message += "%0A💰 مجموع: " + total + " تومان";
 
 window.open("https://wa.me/989375294372?text=" + message, "_blank");
 }
+
 </script>
-<body><div id="cartBox" onclick="showCart()">
-🛒 <span id="cartCount">0</span>
-</div>
 
-<header>
- <section>
-<h2>به بوتیک آلفا خوش آمدید 🤎</h2>
-<p>
-جدیدترین لباس‌های زنانه و مردانه با بهترین کیفیت و قیمت مناسب.
-ارسال به سراسر ایران 🚚
-</p>
-</section> 
-<p>استایل خاص، کیفیت ماندگار</p>
-</header></header>
-
-<div class="product">
-  <img src="https://i.ibb.co/kst7qBTR/filename.jpg" width="300">
-<h3>  تیشرت فلفلی</h3>
-<p>قیمت: 988.000 تومان</p>
-  <a href="https://wa.me/989375294372?text=سلام، برای سفارش این محصول پیام می‌دهم." target="_blank">
-<button onclick="addToCart('تیشرت فلفلی998.000')">➕ افزودن به سبد</button>
-  </a>
-<div class="product">
-  <img src="https://i.ibb.co/chP3frX9/filename.jpg" width="300">
-<h3>شومیز شیشه ای</h3>
-<p>قیمت: 1.750.000, تومان</p>
-  <a href="https://wa.me/989375294372?text=سلام، برای سفارش این محصول پیام می‌دهم." target="_blank">
-<button onclick="addToCart('1.750شومیز شیشه ای')">➕ افزودن به سبد</button>
-</a>
-</div>
-<script>
-function filterCategory(cat){
-let products = document.querySelectorAll('.product');
-products.forEach(p => {
-if(cat === 'all'){
-p.style.display = 'inline-block';
-} else {
-p.style.display = p.getAttribute('data-category') === cat ? 'inline-block' : 'none';
-}
-});
-}
-</script>
- <script>
-let cart = [];
-
-function addToCart(name){
-cart.push(name);
-alert(name + " اضافه شد به سبد خرید 🛒");
-}
-
-function showCart(){
-if(cart.length === 0){
-alert("سبد خرید خالیه");
-return;
-}
-
-let message = "سلام سفارش من:%0A";
-cart.forEach((item, i) => {
-message += (i+1) + "- " + item + "%0A";
-});
-
-window.open("https://wa.me/989375294372?text=" + message, "_blank");
-}
-</script>
 </body>
- <div class="menu">
-  <a href="#">خانه</a>
-  <a href="#">شومیز</a>
-  <a href="#">تیشرت</a>
- <div class="product" data-category="shomiz">
- <div class="product" data-category="tishert">
 </html>
-<div class="menu">
-  <a href="#" onclick="filterCategory('all')">خانه</a>
-  <a href="#" onclick="filterCategory('tishert')">تیشرت</a>
-  <a href="#" onclick="filterCategory('shomiz')">شومیز</a>
-<button onclick="showCart()">🛒 مشاهده سبد خرید</button>
- <footer class="footer">
-
-  <h2>🛍 بوتیک آلفا</h2>
-  <p>استایل خاص تو، از اینجا شروع میشه 🤎</p>
-
-  <div class="contact-box">
-    <p>📞 شماره تماس: <a href="tel:+989375294372">09375294372</a></p>
-    <p>💬 واتساپ: <a href="https://wa.me/989375294372" target="_blank">ارسال پیام</a></p>
-    <p>📍 آدرس: ماهشهر، ایران</p>
-  </div>
-
-  <p class="copy">© 2026 Boutique Alpha - All Rights Reserved</p>
-
-</footer>
- <p>📸 اینستاگرام: 
-<a href="https://instagram.com/boutique_alphaa_" target="_blank" style="color:#ffddc1;font-weight:bold;">
-@boutique_alphaa_
-</a>
-</p>
- 
