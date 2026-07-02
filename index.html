@@ -68,6 +68,27 @@ font-weight:bold;
 <button>🛒 سفارش در واتساپ</button>
 </a>
 </div>
-
+<script>
+function filterCategory(cat){
+let products = document.querySelectorAll('.product');
+products.forEach(p => {
+if(cat === 'all'){
+p.style.display = 'inline-block';
+} else {
+p.style.display = p.getAttribute('data-category') === cat ? 'inline-block' : 'none';
+}
+});
+}
+</script>
 </body>
+ <div class="menu">
+  <a href="#">خانه</a>
+  <a href="#">شومیز</a>
+  <a href="#">تیشرت</a>
+</div> class="product" data-category="shomiz">
+ <div class="product" data-category="tishert">
 </html>
+<div class="menu">
+  <a href="#" onclick="filterCategory('all')">خانه</a>
+  <a href="#" onclick="filterCategory('tishert')"تیشرت</a>
+  <a href="#" onclick="filterCategory('shomiz')">شومیز</a>
